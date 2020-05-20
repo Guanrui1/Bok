@@ -33,19 +33,9 @@
   </div>
 </template>
 
-<script>
-  export default({
-    data() {
-      return {
-        a: 123
-      }
-    }
-  })
-</script>
-
 <template>
   <div>
-    <h1>{{ a }}</h1>
+    <h1>{{ b }}</h1>
     <test />
   </div>
 </template>
@@ -54,7 +44,8 @@
   export default({
     data() {
       return {
-        a: 321
+        a: 321,
+        b: 987
       }
     }
   })
