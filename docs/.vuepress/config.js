@@ -1,24 +1,22 @@
 module.exports = {
   base: '/github/',
-  title: 'Hello world',
+  title: 'UPMS后台文档',
   description: '123',
   themeConfig: {
-    lastUpdated: 'Last Updated',
-    logo: '/home.png',
+    lastUpdated: '上次更新',
+    logo: '/banner.png',
     sidebar: [
-      ['/page-a', '页面A'],
-      ['/page-b', '页面B']
+      ['/page-a', 'VolTable']
     ],
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'External', link: 'https://google.com' },
+      { text: '首页', link: '/' },
+      { text: '百度一下', link: 'https://www.baidu.com/' },
       {
-        text: 'Languages',
+        text: '框架',
         ariaLabel: 'Language Menu',
         items: [
-          { text: 'Chinese', link: '/language/chinese/' },
-          { text: 'Japanese', link: '/language/japanese/' }
+          { text: 'iview', link: 'https://www.iviewui.com/docs/introduce' },
+          { text: 'elementui', link: 'https://element.eleme.cn/#/zh-CN/component/installation' }
         ]
       }
     ]
